@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Nixie+One&family=Work+Sans:ital,wght@0,300;0,500;0,700;0,800;1,300;1,500;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,600&display=swap" rel="stylesheet">
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid red;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #eee;
+  color: #202020ff;
+  margin: 0px;
+  padding: 0px;
+}
+header, section {
+  padding: 5%;
+}
+.bruninbtf {
+   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #E7D76A 65%);
+  padding-right: 0.5rem;
+}
+.bruninbtf:hover {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #E89E59 65%);
+}
+header {
+  text-align: center;
+}
+header h1 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing:1px;
+  margin-bottom: 2rem;
+}
+header h2 {
+  font-weight: 300;
+  max-width: 40rem;
+  margin: auto;
+/*   text-align: justify; */
+/*   letter-spacing: 1px; */
+}
+.img-banner {
+  background-image: url('https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 40%;
+}
+section h3 {
+  text-align: right;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+p {
+  font-weight:300;
+}
+.padded {
+  padding: 2rem;
+}
+footer {
+  padding:2.5rem 0px 1rem 0rem;
+  background-color: #bbb;
+  text-align: center;
+}
+footer h3 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 300;
+  padding: 5px 2rem;
+  font-size: 18px;
+  display: inline-block;
+}
+a:hover {
+  color: #eee;
+}
+.grid {
+  max-width: 99vw; 
+}
+.functional {
+  font-weight: 400;
+}
